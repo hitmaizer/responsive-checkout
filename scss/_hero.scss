@@ -3,6 +3,9 @@
     gap: 112px;
     @include respond-below(md) {
       flex-direction: column;
+      flex-direction: column-reverse;
+      align-items: center;
+      gap: 64px;
     }
 }
 
@@ -12,6 +15,11 @@
     border-radius: 12px;
     gap: 32px;
     align-items: flex-start;
+
+    @include respond-below(md) {
+      
+      place-self: center;
+    }
 }
 
 .card__img {
@@ -77,6 +85,8 @@
 
 .hero__right--details {
     width: 100%;
+    gap: 8px;
+    margin-top: 32px;
     
 }
 
@@ -91,6 +101,7 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
+    color: $dark-gray;
     @include respond-below(md) {
         font-size: 14px;
         line-height: 17px;
@@ -101,7 +112,8 @@
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
-    line-height: 17px
+    line-height: 17px;
+    color: $dark-gray;
 }
 
 .hero__righthline {

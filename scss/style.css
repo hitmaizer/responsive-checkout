@@ -65,6 +65,12 @@
   width: 100%;
 }
 
+@media (max-width: 991px) {
+  .header__title {
+    padding: 16px 32px;
+  }
+}
+
 .hero__wrapper {
   -webkit-box-align: start;
       -ms-flex-align: start;
@@ -78,6 +84,11 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 64px;
   }
 }
 
@@ -89,6 +100,12 @@
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+}
+
+@media (max-width: 991px) {
+  .hero__right {
+    place-self: center;
+  }
 }
 
 .card__img {
@@ -153,6 +170,8 @@
 
 .hero__right--details {
   width: 100%;
+  gap: 8px;
+  margin-top: 32px;
 }
 
 .hero__right--detail {
@@ -167,6 +186,7 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
+  color: #333333;
 }
 
 @media (max-width: 991px) {
@@ -181,6 +201,7 @@
   font-weight: 600;
   font-size: 14px;
   line-height: 17px;
+  color: #333333;
 }
 
 .hero__righthline {
@@ -212,6 +233,13 @@ footer {
   width: 100%;
 }
 
+@media (max-width: 991px) {
+  .input__container {
+    width: 90%;
+    place-self: flex-start;
+  }
+}
+
 .icon {
   position: absolute;
   left: 10px;
@@ -225,9 +253,26 @@ footer {
   gap: 8px;
 }
 
+@media (max-width: 991px) {
+  .form__shipping {
+    padding: 8px;
+    width: 80%;
+    place-self: center;
+    place-items: center;
+  }
+}
+
 .form__contact {
   padding: 16px;
   gap: 8px;
+}
+
+@media (max-width: 991px) {
+  .form__contact {
+    padding: 8px;
+    width: 80%;
+    place-self: center;
+  }
 }
 
 .form__title {
@@ -251,6 +296,20 @@ footer {
   gap: 32px;
 }
 
+@media (max-width: 991px) {
+  .form--row {
+    gap: 16px;
+    width: 95%;
+    place-self: flex-start;
+  }
+}
+
+@media (max-width: 991px) {
+  .input__container--postal {
+    width: 100%;
+  }
+}
+
 .form__label--checkbox {
   color: #4F4F4F;
   font-weight: 600;
@@ -272,6 +331,12 @@ footer {
           align-items: center;
   gap: 12px;
   margin-top: 8px;
+}
+
+@media (max-width: 991px) {
+  .form__checkbox__wrapper {
+    width: 90%;
+  }
 }
 
 input {
@@ -304,10 +369,6 @@ option {
 
 .form__postCode__wrapper {
   gap: 8px;
-}
-
-.form__contact {
-  width: 100%;
 }
 
 .checkbox {

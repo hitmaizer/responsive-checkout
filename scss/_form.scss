@@ -11,6 +11,10 @@
 .input__container {
     position: relative;
     width: 100%;
+    @include respond-below(md) {
+      width: 90%;
+      place-self: flex-start;
+    }
 }
 
 .icon {
@@ -23,11 +27,22 @@
 .form__shipping {
     padding: 16px;
     gap: 8px;
+    @include respond-below(md) {
+      padding: 8px;
+      width: 80%;
+      place-self: center;
+      place-items: center;
+    }
 }
 
 .form__contact {
     padding: 16px;
     gap: 8px;
+    @include respond-below(md) {
+        padding: 8px;
+        width: 80%;
+        place-self: center;
+      }
 }
 
 .form__title {
@@ -50,6 +65,17 @@
 
 .form--row {
     gap: 32px;
+    @include respond-below(md) {
+      gap: 16px;
+      width: 95%;
+      place-self: flex-start;
+    }
+}
+
+.input__container--postal {
+    @include respond-below(md) {
+      width: 100%;
+    }
 }
 
 .form__label--checkbox {
@@ -66,6 +92,9 @@
     align-items: center;
     gap: 12px;
     margin-top: 8px;
+    @include respond-below(md) {
+      width: 90%;
+    }
     
 }
 
@@ -105,9 +134,7 @@ option {
     gap: 8px;
 }
 
-.form__contact {
-    width: 100%;
-}
+
 
 .checkbox {
     height: auto;
