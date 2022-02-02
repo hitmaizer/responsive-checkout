@@ -57,6 +57,10 @@
   color: #4E5150;
 }
 
+.material-icons {
+  color: #828282;
+}
+
 .form__input {
   text-indent: 40px;
 }
@@ -74,8 +78,14 @@
           transform: translateY(-50%);
 }
 
-.material-icons {
-  color: #828282;
+.form__shipping {
+  padding: 16px;
+  gap: 8px;
+}
+
+.form__contact {
+  padding: 16px;
+  gap: 8px;
 }
 
 .form__title {
@@ -93,6 +103,10 @@
   line-height: 15px;
   color: #4F4F4F;
   place-self: flex-start;
+}
+
+.form--row {
+  gap: 32px;
 }
 
 .form__label--checkbox {
