@@ -328,9 +328,9 @@
                             <h6 class="card__price--before"><del>$94.99</del></h6>
                         </div>
                         <div class="card__itemcount flex-row">
-                            <span class="material-icons">indeterminate_check_box</span>
-                            <p class="card__itemcount--number">1</p>
-                            <span class="material-icons">add_box</span>
+                            <span id="decrement2" class="material-icons count__icon">indeterminate_check_box</span>
+                            <p id="number2" class="card__itemcount--number">0</p>
+                            <span id="increment2" class="material-icons count__icon">add_box</span>
                         </div>
                     </div>
                 </div>
@@ -342,10 +342,10 @@
                             <h6 class="card__price--actual">$74.99</h6>
                             <h6 class="card__price--before"><del>$124.99</del></h6>
                         </div>
-                        <div class="card__itemcount flex-row">
-                            <span class="material-icons">indeterminate_check_box</span>
-                            <p class="card__itemcount--number">1</p>
-                            <span class="material-icons">add_box</span>
+                        <div id="countContainer" class="card__itemcount flex-row">
+                            <span id="decrement" class="material-icons count__icon">indeterminate_check_box</span>
+                            <p id="number" class="card__itemcount--number">0</p>
+                            <span id="increment" class="material-icons count__icon">add_box</span>
                         </div>
                     </div>
                 </div>
@@ -353,5 +353,6 @@
         </main>
         <footer class="page__footer">created by <u><b>Jose Alves</b></u>- devChallenges.io</footer>
     </div>
+    <script src="./app.js"></script>
 </body>
 </html>
