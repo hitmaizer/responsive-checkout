@@ -72,6 +72,15 @@
   gap: 112px;
 }
 
+@media (max-width: 991px) {
+  .hero__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .hero__right {
   background-color: #F2F2F2;
   padding: 32px;
@@ -135,6 +144,49 @@
 
 .count__icon {
   cursor: pointer;
+}
+
+.card__itemcount--number {
+  min-width: 16px;
+  text-align: center;
+}
+
+.hero__right--details {
+  width: 100%;
+}
+
+.hero__right--detail {
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.detail__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+@media (max-width: 991px) {
+  .detail__title {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+
+.detail__number {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.hero__righthline {
+  width: 100%;
+  height: 2px;
+  color: #BDBDBD;
 }
 
 footer {
