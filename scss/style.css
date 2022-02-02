@@ -63,13 +63,97 @@
 
 .input__container {
   position: relative;
+  width: 100%;
 }
 
 .icon {
   position: absolute;
   left: 10px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 .material-icons {
   color: #828282;
+}
+
+.form__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #333333;
+}
+
+.form__label {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #4F4F4F;
+  place-self: flex-start;
+}
+
+.form__label--checkbox {
+  color: #4F4F4F;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.form__checkbox__wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 12px;
+}
+
+input {
+  border-radius: 12px;
+  border: 1px solid #828282;
+  height: 56px;
+  width: 100%;
+}
+
+.checkbox {
+  width: auto;
+  place-self: flex-start;
+}
+
+select {
+  border-radius: 12px;
+  border: 1px solid #828282;
+  height: 56px;
+  width: 100%;
+  color: #828282;
+}
+
+option {
+  color: #333333;
+}
+
+.form__contact {
+  width: 100%;
+}
+
+.checkbox {
+  height: auto;
+}
+
+.form__button {
+  border: none;
+  background-color: #F2994A;
+  padding: 16px 45px;
+  border-radius: 12px;
+  color: #fff;
+  place-self: flex-end;
 }
