@@ -52,7 +52,8 @@
                             <label for="Country" class="form__label">Country</label>
                             <div class="input__container">
                                 <span class="material-icons icon">public</span>
-                                <select type="select" class="form__input" placeholder="Your country...">
+                                <select type="select" class="form__input" required>
+                                    <option value="" selected disabled hidden>--Select Your Country--</option>
                                     <option value="Afganistan">Afghanistan</option>
                                     <option value="Albania">Albania</option>
                                     <option value="Algeria">Algeria</option>
@@ -310,10 +311,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="form__checkbox__wrapper flex-row">
-                        <input type="checkbox" class="form__input">
-                        <label for="checkbox" class="form__label">Save this information for next time</label>
+                    <div class="form__checkbox__wrapper">
+                        <input type="checkbox" class="checkbox">
+                        <label for="checkbox" class="form__label--checkbox">Save this information for next time</label>
                     </div>
+                    <button class="form__button">Continue</button>
                 </form>
             </div>
             <div class="hero__right flex-col">
