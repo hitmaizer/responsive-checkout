@@ -1,6 +1,9 @@
 .hero__wrapper{
     align-items: flex-start;
     gap: 112px;
+    @include respond-below(md) {
+      flex-direction: column;
+    }
 }
 
 .hero__right {
@@ -65,4 +68,45 @@
 
 .count__icon {
     cursor: pointer;
+}
+
+.card__itemcount--number {
+    min-width: 16px;
+    text-align: center;
+}
+
+.hero__right--details {
+    width: 100%;
+    
+}
+
+.hero__right--detail {
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.detail__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    @include respond-below(md) {
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
+
+.detail__number {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px
+}
+
+.hero__righthline {
+    width: 100%;
+    height: 2px;
+    color: $lightest-gray;
+
 }
