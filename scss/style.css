@@ -38,6 +38,25 @@
           align-items: center;
 }
 
+.header__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 370px;
+  height: 150px;
+}
+
+.header__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  color: #4E5150;
+}
+
 .form__input {
   text-indent: 40px;
 }
