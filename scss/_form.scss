@@ -65,6 +65,7 @@
     flex-direction: row;
     align-items: center;
     gap: 12px;
+    margin-top: 8px;
     
 }
 
@@ -96,6 +97,14 @@ option {
     
 }
 
+.form__country--col {
+    gap: 8px;
+}
+
+.form__postCode__wrapper {
+    gap: 8px;
+}
+
 .form__contact {
     width: 100%;
 }
@@ -111,4 +120,65 @@ option {
     border-radius: 12px;
     color: #fff;
     place-self: flex-end;
+    cursor: pointer;
+    &:hover {
+        transform: translateY(-5%);
+    }
 }
+
+.hero__right {
+    background-color: $offwhite;
+    padding: 32px;
+    border-radius: 12px;
+    gap: 32px;
+    align-items: flex-start;
+}
+
+.card__img {
+    width: 150px;
+    border-radius: 16px;
+}
+
+.card__wrapper {
+    width: 100%;
+    gap: 24px;
+}
+
+.card__rightsection {
+    gap: 16px;
+    width: 100%;
+}
+
+.card__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: $gray;
+}
+
+.card__price--actual {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: $orange;
+}
+
+.card__price--before {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: $gray;
+
+}
+
+.card__itemcount {
+    padding: 16px;
+    border: 1px solid #828282;
+    border-radius: 12px;
+    width: 80%;
+    gap: 16px;
+}
+
