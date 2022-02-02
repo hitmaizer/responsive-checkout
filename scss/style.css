@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
 .flex-col {
@@ -34,4 +36,14 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.form__input {
+  text-indent: 40px;
+}
+
+.input--email {
+  background-image: url("../images/baseline_email_black_24dp.png");
+  background-repeat: no-repeat;
+  background-position: 2px;
 }
