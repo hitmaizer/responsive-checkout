@@ -1,0 +1,15 @@
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    margin-left: 370px;
+    height: 150px;
+}
+
+.header__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: $gray;
+}
+
