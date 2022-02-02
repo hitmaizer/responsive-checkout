@@ -38,6 +38,7 @@
 .form__contact {
     padding: 16px;
     gap: 8px;
+    width: 100%;
     @include respond-below(md) {
         padding: 8px;
         width: 80%;

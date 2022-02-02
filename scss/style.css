@@ -265,6 +265,7 @@ footer {
 .form__contact {
   padding: 16px;
   gap: 8px;
+  width: 100%;
 }
 
 @media (max-width: 991px) {
