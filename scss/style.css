@@ -133,6 +133,10 @@
   gap: 16px;
 }
 
+.count__icon {
+  cursor: pointer;
+}
+
 footer {
   font-style: normal;
   font-weight: 600;
