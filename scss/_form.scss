@@ -1,3 +1,8 @@
+.material-icons {
+    color: $form-gray;
+}
+
+
 .form__input {
     text-indent: 40px;
     
@@ -15,9 +20,14 @@
     transform: translateY(-50%)
 }
 
+.form__shipping {
+    padding: 16px;
+    gap: 8px;
+}
 
-.material-icons {
-    color: $form-gray;
+.form__contact {
+    padding: 16px;
+    gap: 8px;
 }
 
 .form__title {
@@ -36,6 +46,10 @@
     color: $medium-gray;
     place-self: flex-start;
     
+}
+
+.form--row {
+    gap: 32px;
 }
 
 .form__label--checkbox {
