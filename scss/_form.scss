@@ -1,9 +1,19 @@
 .form__input {
     text-indent: 40px;
+    
+    
 }
 
-.input--email {
-    background-image: url("../images/baseline_email_black_24dp.png");
-    background-repeat: no-repeat;
-    background-position: 2px;
+.input__container {
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    left: 10px;
+}
+
+
+.material-icons {
+    color: #828282;
 }
