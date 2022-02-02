@@ -1,8 +1,9 @@
 .header__wrapper {
     display: flex;
     align-items: center;
-    margin-left: 370px;
+    flex-direction: row;
     height: 150px;
+    justify-content: flex-start;
 }
 
 .header__title {
@@ -11,5 +12,7 @@
     font-size: 36px;
     line-height: 44px;
     color: $gray;
+    padding: 32px 220px;
+    width: 100%;
 }
 
